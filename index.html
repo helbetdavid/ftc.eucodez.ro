@@ -18,9 +18,14 @@
               height="80"
               width="80"
           /></a>
-          <ul>
+          <div class="navbar-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar-menu">
             <li><a href="index.html">Acasa</a></li>
-            <li><a href="about.html">Despre Noi</a></li>
+            <li><a href="desprenoi.html">Despre Noi</a></li>
             <li class="donate-btn">
               <a href="doneaza.html" class="active">Doneaza</a>
             </li>
@@ -28,15 +33,27 @@
         </nav>
       </header>
     </div>
-    <div class="container">
-        <div class="text-main">
-            <h2>Descopera...</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quasi sit asperiores aut odio sunt illum possimus rerum autem cumque praesentium, repellendus veniam, quidem reiciendis nostrum, sequi distinctio explicabo enim!</p>
-            <a href="about.html" class="btn">Afla mai multe</a>
-        </div>
-        <div class="img-main">
-            <img src="src/img/robotfin.png" alt="Robot" />
-        </div>
+    <div class="flex-container container">
+      <div class="flex-child text-main">
+        <a
+          href=""
+          class="typewrite"
+          data-period="2000"
+          data-type='[ "Think Positively...", "Be Happy...", "Worry Less...", "Work Hard...", "Be Creative..."]'
+        >
+        </a>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quasi sit
+          asperiores aut odio sunt illum possimus rerum autem cumque
+          praesentium, repellendus veniam, quidem reiciendis nostrum, sequi
+          distinctio explicabo enim!
+        </p>
+        <a href="about.html" class="btn">Afla mai multe</a>
+      </div>
+      <div class="flex-child img-main">
+        <img src="src/img/robofin.png" alt="Robot" class="imagine" />
+      </div>
     </div>
+    <script src="src/js/script.js"></script>
   </body>
 </html>
