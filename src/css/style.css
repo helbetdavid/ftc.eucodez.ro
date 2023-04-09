@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Varela Round");
+
+* {
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #264653;
+  margin: 0;
+  padding: 350px 200px 0px;
+}
+nav {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 100%;
+  padding: 30px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index:2;
+}
+nav .logo {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+nav ul li a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  background-color: #e9c46a;
+  color: #fff;
+}
+nav ul li.donate-btn a{
+    background-color: #2a9d8f;
+    color: #fff;
+}
+nav ul li.donate-btn a:hover{
+    background-color: #e9c46a;
+    color: #fff;
+}
+
+.container{
+    position: absolute;
+}
+.text-main h2{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.text-main p{
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    width: 500px;
+}
