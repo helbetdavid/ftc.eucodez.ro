@@ -105,11 +105,15 @@ nav ul li.donate-btn a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 0px;
   }
 
   .navbar .menu ul li {
     margin: 25px 0;
     font-size: 1.2em;
+    align-items: center;
   }
 }
   
