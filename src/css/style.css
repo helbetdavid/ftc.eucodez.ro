@@ -8,7 +8,7 @@
 body {
   background-color: #264653;
   margin: 0;
-  padding: 300px 200px;
+  padding: 50px 200px;
 }
 nav {
   position: absolute;
@@ -24,6 +24,7 @@ nav .logo {
   letter-spacing: 2px;
   padding-bottom: 1px;
   text-decoration: none;
+  height: 100%;
 }
 nav ul {
   display: flex;
@@ -61,7 +62,6 @@ nav ul li.donate-btn a:hover {
   right: 50px;
   width: 35px;
 }
-
 @media screen and (max-width: 790px) {
   .navbar {
     padding: 0;
@@ -70,13 +70,15 @@ nav ul li.donate-btn a:hover {
     position: absolute;
     top: 25px;
     left: 50px;
+    height: 50px;
   }
   .navbar .menu-hamburger {
     display: block;
     align-items: center;
+    z-index: 101;
   }
   .menu {
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -89,12 +91,12 @@ nav ul li.donate-btn a:hover {
     flex-direction: column;
     margin-left: -100%;
     transition: all 0.3s ease-out;
+    z-index: 100;
   }
   .mobile-menu {
     margin-left: 0;
     align-items: center;
   }
-
   .menu ul {
     display: flex;
     flex-direction: column;
@@ -103,7 +105,6 @@ nav ul li.donate-btn a:hover {
     padding: 0;
     margin-top: 0px;
   }
-
   .navbar .menu ul li {
     margin: 25px 0;
     font-size: 1.2em;
@@ -111,60 +112,119 @@ nav ul li.donate-btn a:hover {
   }
 }
 
-.container {
+/* row */
+
+.row{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 50px 120px;
+  margin: 100px 0;
 }
-.typewrite {
+.col-1{
+  flex-basis: 40%;
+  margin-left: 50px;
+}
+.col-1 .typewrite {
   color: #fff;
-  font-size: 3em;
-  font-weight: 700;
-  letter-spacing: 2px;
-  padding-bottom: 30px;
   text-decoration: none;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  transition: all 0.3s ease-in-out;
 }
-.text-main p {
+.col-1 p{
   color: #fff;
   font-size: 1.2em;
-  font-weight: 400;
-  letter-spacing: 2px;
-  padding-bottom: 30px;
-  text-decoration: none;
-  width: 500px;
+  margin-top: 15px;
+  line-height: 1.5;
 }
-.text-main .btn {
+.col-1 .btn{
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
   background-color: #2a9d8f;
   color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 15px;
+  border-radius: 20px;
+  font-size: 1.2em;
   transition: all 0.3s ease-in-out;
-  font-size: 20px;
+  text-decoration: none;
+  
 }
-.text-main .btn:hover {
+.col-1 .btn:hover{
   background-color: #e9c46a;
   color: #fff;
 }
-.flex-container {
+.col-2{
+  position: relative;
+  flex-basis: 50%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
-.flex-child {
-  flex: 1;
+.col-2 img{
+  width: 90%;
 }
-.flex-child:first-child {
-  margin-right: 20px;
+@media only screen and (max-width: 1200px){
+  
+  body{
+    padding: 125px 10px 0px 10px;
+  }
+  .row{
+    flex-direction: column;
+    margin: 50px 0;
+  }
+  .col-1{
+    flex-basis: 60%;
+    margin: 0;
+    text-align: center;
+  }
+  .col-1 .typewrite{
+    font-size: 1.5em;
+  }
+  .col-1 p{
+    font-size: 1em;
+  }
+  .col-1 .btn{
+    font-size: 1em;
+  }
+  .col-2{
+    flex-basis: 100%;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .col-2 img{
+    max-width: 70%;
+  }
 }
-.img-main .imagine {
-  position: absolute;
-  top: 55%;
-  left: 1400px;
-  transform: translate(-50%, -50%);
-  max-width: 35%;
-  height: auto;
-  object-fit: cover;
+@media only screen and (max-width: 900px){
+  
+  body{
+    padding: 125px 10px 0px 10px;
+  }
+  .row{
+    flex-direction: column;
+    margin: 50px 0;
+  }
+  .col-1{
+    flex-basis: 60%;
+    margin: 0;
+    text-align: center;
+  }
+  .col-1 .typewrite{
+    font-size: 1.5em;
+  }
+  .col-1 p{
+    font-size: 1em;
+  }
+  .col-1 .btn{
+    font-size: 1em;
+  }
+  .col-2{
+    flex-basis: 100%;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .col-2 img{
+    width: 80%;
+  }
 }
