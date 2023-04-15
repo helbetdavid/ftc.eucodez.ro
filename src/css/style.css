@@ -112,8 +112,6 @@ nav ul li.donate-btn a:hover {
   }
 }
 
-/* row */
-
 .row{
   display: flex;
   justify-content: space-between;
@@ -249,10 +247,74 @@ nav ul li.donate-btn a:hover {
   font-size: 1.2em;
   margin-top: -20px;
 }
-
 @media screen and (max-width: 790px) {
   .color-box p{
     font-size: 1em;
-      margin-top: -30px;
+      margin-top: -10px;
+  }
+}
+
+.row-2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+}
+.oechipa{
+  color: #fff;
+  font-size: 2em;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+.col1-1{
+  flex-basis: 30%;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.col1-2{
+  flex-basis: 40%;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.romania-text{
+  background: -webkit-linear-gradient(left,#001aff, #ffe600, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.textechipa{
+  color: #fff;
+  font-size: 1em;
+  margin-top: 15px;
+  line-height: 1.5;
+  align-items: center;
+}
+
+.pozaechi{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+@media screen and (max-width: 790px) {
+  .row-2{
+    flex-direction: column;
+    margin: 50px 0;
+  }
+  .col1-1{
+    flex-basis: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .col1-2{
+    flex-basis: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .pozaechi{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 50px;
   }
 }
