@@ -112,14 +112,14 @@ nav ul li.donate-btn a:hover {
   }
 }
 
-.row{
+.row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   margin: 100px 0;
 }
-.col-1{
+.col-1 {
   flex-basis: 40%;
   margin-left: 50px;
 }
@@ -131,13 +131,13 @@ nav ul li.donate-btn a:hover {
   letter-spacing: 1.2px;
   transition: all 0.3s ease-in-out;
 }
-.col-1 p{
+.col-1 p {
   color: #fff;
   font-size: 1.2em;
   margin-top: 15px;
   line-height: 1.5;
 }
-.col-1 .btn{
+.col-1 .btn {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 20px;
@@ -147,88 +147,85 @@ nav ul li.donate-btn a:hover {
   font-size: 1.2em;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
-  
 }
-.col-1 .btn:hover{
+.col-1 .btn:hover {
   background-color: #e9c46a;
   color: #fff;
 }
-.col-2{
+.col-2 {
   position: relative;
   flex-basis: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.col-2 img{
+.col-2 img {
   width: 90%;
 }
-@media only screen and (max-width: 1200px){
-  
-  body{
+@media only screen and (max-width: 1200px) {
+  body {
     padding: 125px 10px 0px 10px;
   }
-  .row{
+  .row {
     flex-direction: column;
     margin: 50px 0;
   }
-  .col-1{
+  .col-1 {
     flex-basis: 60%;
     margin: 0;
     text-align: center;
   }
-  .col-1 .typewrite{
+  .col-1 .typewrite {
     font-size: 1.5em;
   }
-  .col-1 p{
+  .col-1 p {
     font-size: 1em;
   }
-  .col-1 .btn{
+  .col-1 .btn {
     font-size: 1em;
   }
-  .col-2{
+  .col-2 {
     flex-basis: 100%;
     margin-top: 25px;
     text-align: center;
   }
-  .col-2 img{
+  .col-2 img {
     max-width: 70%;
   }
 }
-@media only screen and (max-width: 900px){
-  
-  body{
+@media only screen and (max-width: 900px) {
+  body {
     padding: 125px 10px 0px 10px;
   }
-  .row{
+  .row {
     flex-direction: column;
     margin: 50px 0;
   }
-  .col-1{
+  .col-1 {
     flex-basis: 60%;
     margin: 0;
     text-align: center;
   }
-  .col-1 .typewrite{
+  .col-1 .typewrite {
     font-size: 1.5em;
   }
-  .col-1 p{
+  .col-1 p {
     font-size: 1em;
   }
-  .col-1 .btn{
+  .col-1 .btn {
     font-size: 1em;
   }
-  .col-2{
+  .col-2 {
     flex-basis: 100%;
     margin-top: 25px;
     text-align: center;
   }
-  .col-2 img{
+  .col-2 img {
     width: 80%;
   }
 }
 
-.color-box{
+.color-box {
   background-color: #e9c46a;
   padding: 40px 0;
   margin: 20px 0;
@@ -236,52 +233,52 @@ nav ul li.donate-btn a:hover {
   text-align: center;
   opacity: 1;
 }
-.color-box img{
+.color-box img {
   width: 95%;
   height: auto;
 }
-.color-box p{
+.color-box p {
   color: #264653;
-  top:0;
+  top: 0;
   left: 0;
   font-size: 1.2em;
   margin-top: -20px;
 }
 @media screen and (max-width: 790px) {
-  .color-box p{
+  .color-box p {
     font-size: 1em;
-      margin-top: -10px;
+    margin-top: -10px;
   }
 }
 
-.row-2{
+.row-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 100px 0;
 }
-.oechipa{
+.oechipa {
   color: #fff;
   font-size: 2em;
   margin-top: 15px;
   line-height: 1.5;
 }
-.col1-1{
+.col1-1 {
   flex-basis: 30%;
   margin-left: 50px;
   margin-top: 50px;
 }
-.col1-2{
+.col1-2 {
   flex-basis: 40%;
   margin-right: 50px;
   margin-top: 50px;
 }
-.romania-text{
-  background: -webkit-linear-gradient(left,#001aff, #ffe600, #ff0000);
+.romania-text {
+  background: -webkit-linear-gradient(left, #001aff, #ffe600, #ff0000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.textechipa{
+.textechipa {
   color: #fff;
   font-size: 1em;
   margin-top: 15px;
@@ -289,28 +286,28 @@ nav ul li.donate-btn a:hover {
   align-items: center;
 }
 
-.pozaechi{
+.pozaechi {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
 }
 @media screen and (max-width: 790px) {
-  .row-2{
+  .row-2 {
     flex-direction: column;
     margin: 50px 0;
   }
-  .col1-1{
+  .col1-1 {
     flex-basis: 100%;
     margin: 0;
     text-align: center;
   }
-  .col1-2{
+  .col1-2 {
     flex-basis: 100%;
     margin: 0;
     text-align: center;
   }
-  .pozaechi{
+  .pozaechi {
     width: 100%;
     height: auto;
     object-fit: cover;
