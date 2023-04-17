@@ -44,7 +44,7 @@ nav ul li a {
   font-size: 20px;
 }
 nav ul li a:hover {
-  background-color: #e9c46a;
+  background-color: #F4A261;
   color: #fff;
 }
 nav ul li.donate-btn a {
@@ -52,7 +52,7 @@ nav ul li.donate-btn a {
   color: #fff;
 }
 nav ul li.donate-btn a:hover {
-  background-color: #e9c46a;
+  background-color: #F4A261;
   color: #fff;
 }
 .navbar .menu-hamburger {
@@ -149,7 +149,7 @@ nav ul li.donate-btn a:hover {
   text-decoration: none;
 }
 .col-1 .btn:hover {
-  background-color: #e9c46a;
+  background-color: #F4A261;
   color: #fff;
 }
 .col-2 {
@@ -226,7 +226,7 @@ nav ul li.donate-btn a:hover {
 }
 
 .color-box {
-  background-color: #e9c46a;
+  background-color: #F4A261;
   padding: 40px 0;
   margin: 20px 0;
   border-radius: 20px;
@@ -290,7 +290,12 @@ nav ul li.donate-btn a:hover {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 20px;
+}
+.pozaechi:hover{
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7); 
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
 }
 @media screen and (max-width: 790px) {
   .row-2 {
@@ -313,5 +318,171 @@ nav ul li.donate-btn a:hover {
     object-fit: cover;
     border-radius: 10px;
     margin-top: 50px;
+  }
+}
+
+.row-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.noutatitxt {
+  color: white;
+  font-size: 2em;
+  line-height: 1.5;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.col2-1 {
+  flex-basis: 30%;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.col2-2 {
+  flex-basis: 30%;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.col2-3 {
+  flex-basis: 30%;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.border1 {
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 20px;
+  opacity: 1;
+  background-color: #ffffff81;
+}
+.border1 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.border2 {
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  opacity: 1;
+  padding-top: 20px;
+  background-color: #ffffff81;
+}
+.border2 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.border3 {
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  opacity: 1;
+  padding-top: 20px;
+  background-color: #ffffff81;
+}
+.border3 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.titlun {
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.text11 {
+  color: #fff;
+  font-size: 1em;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.text12 {
+  color: #fff;
+  font-size: 1em;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.text13 {
+  color: #fff;
+  font-size: 1em;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.col2-1:hover{
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7); 
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+}
+.col2-2:hover{
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7); 
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+}
+.col2-3:hover{
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7); 
+  transition: 0.3s ease-in-out;
+  border-radius: 20px;
+}
+@media screen and (max-width: 790px) {
+  .noutatitxt{
+    font-size: 1.5em;
+  }
+  .row-3 {
+    flex-direction: column;
+    margin: 50px 0;
+    margin-top: 20px;
+  }
+  .col2-1 {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .col2-2 {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .col2-3 {
+    flex-basis: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .border1 {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    opacity: 1;
+    background-color: #ffffff81;
+    margin-bottom: 20px;
+  }
+  .border2 {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 1;
+    padding-top: 20px;
+    background-color: #ffffff81;
+    margin-bottom: 20px;
+  }
+  .border3 {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 1;
+    padding-top: 20px;
+    background-color: #ffffff81;
+    margin-bottom: 20px;
   }
 }
