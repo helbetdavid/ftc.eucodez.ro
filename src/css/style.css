@@ -44,7 +44,7 @@ nav ul li a {
   font-size: 20px;
 }
 nav ul li a:hover {
-  background-color: #F4A261;
+  background-color: #f4a261;
   color: #fff;
 }
 nav ul li.donate-btn a {
@@ -52,7 +52,7 @@ nav ul li.donate-btn a {
   color: #fff;
 }
 nav ul li.donate-btn a:hover {
-  background-color: #F4A261;
+  background-color: #f4a261;
   color: #fff;
 }
 .navbar .menu-hamburger {
@@ -149,7 +149,7 @@ nav ul li.donate-btn a:hover {
   text-decoration: none;
 }
 .col-1 .btn:hover {
-  background-color: #F4A261;
+  background-color: #f4a261;
   color: #fff;
 }
 .col-2 {
@@ -226,7 +226,7 @@ nav ul li.donate-btn a:hover {
 }
 
 .color-box {
-  background-color: #F4A261;
+  background-color: #f4a261;
   padding: 40px 0;
   margin: 20px 0;
   border-radius: 20px;
@@ -292,8 +292,8 @@ nav ul li.donate-btn a:hover {
   object-fit: cover;
   border-radius: 20px;
 }
-.pozaechi:hover{
-  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7); 
+.pozaechi:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7);
   transition: 0.3s ease-in-out;
   border-radius: 20px;
 }
@@ -419,23 +419,23 @@ nav ul li.donate-btn a:hover {
   margin-top: 10px;
   line-height: 1.5;
 }
-.col2-1:hover{
-  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7); 
+.col2-1:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7);
   transition: 0.3s ease-in-out;
   border-radius: 20px;
 }
-.col2-2:hover{
-  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7); 
+.col2-2:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7);
   transition: 0.3s ease-in-out;
   border-radius: 20px;
 }
-.col2-3:hover{
-  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7); 
+.col2-3:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.7);
   transition: 0.3s ease-in-out;
   border-radius: 20px;
 }
 @media screen and (max-width: 790px) {
-  .noutatitxt{
+  .noutatitxt {
     font-size: 1.5em;
   }
   .row-3 {
